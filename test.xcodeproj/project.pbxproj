@@ -15,6 +15,8 @@
 		AE5D1DBA1F10879D004FB490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5D1DB81F10879D004FB490 /* LaunchScreen.storyboard */; };
 		AE5D1DC51F10879D004FB490 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5D1DC41F10879D004FB490 /* testTests.m */; };
 		AE5D1DD01F10879D004FB490 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5D1DCF1F10879D004FB490 /* testUITests.m */; };
+		AE5D1DE61F1089FE004FB490 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5D1DE51F1089FE004FB490 /* ProgressView.m */; };
+		AE5D1DE81F108A08004FB490 /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5D1DE71F108A08004FB490 /* ProgressView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		AE5D1DCB1F10879D004FB490 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5D1DCF1F10879D004FB490 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		AE5D1DD11F10879D004FB490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5D1DE41F1089FE004FB490 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		AE5D1DE51F1089FE004FB490 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		AE5D1DE71F108A08004FB490 /* ProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				AE5D1DB81F10879D004FB490 /* LaunchScreen.storyboard */,
 				AE5D1DBB1F10879D004FB490 /* Info.plist */,
 				AE5D1DAA1F10879D004FB490 /* Supporting Files */,
+				AE5D1DE41F1089FE004FB490 /* ProgressView.h */,
+				AE5D1DE51F1089FE004FB490 /* ProgressView.m */,
+				AE5D1DE71F108A08004FB490 /* ProgressView.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5D1DBA1F10879D004FB490 /* LaunchScreen.storyboard in Resources */,
+				AE5D1DE81F108A08004FB490 /* ProgressView.xib in Resources */,
 				AE5D1DB71F10879D004FB490 /* Assets.xcassets in Resources */,
 				AE5D1DB51F10879D004FB490 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5D1DB21F10879D004FB490 /* ViewController.m in Sources */,
+				AE5D1DE61F1089FE004FB490 /* ProgressView.m in Sources */,
 				AE5D1DAF1F10879D004FB490 /* AppDelegate.m in Sources */,
 				AE5D1DAC1F10879D004FB490 /* main.m in Sources */,
 			);
